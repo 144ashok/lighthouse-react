@@ -1,8 +1,10 @@
 module.exports = {
   ci: {
     collect: {
-      numberOfRuns: 3,
+      // url: ['http://localhost/3000'],
+      numberOfRuns: 1,
       staticDistDir: "./build",
+      // startServerCommand: 'npm start',
     },
     assert: {
       assertions: {
