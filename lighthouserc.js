@@ -10,8 +10,11 @@ module.exports ={
         "numberOfRuns": 1,
         "staticDistDir": "./public",
         "settings": {
-          "preset": "desktop",
-          "chromeFlags": "--no-sandbox --disable-dev-shm-usage --headless --in-process-gpu"
+            "emulatedFormFactor": "desktop",
+            "disableDeviceEmulation": true,
+            "disableCpuThrottling": true,
+            "disableNetworkThrottling": true,
+            "throttlingMethod": "provided"
         }
       },
       "assert": {
