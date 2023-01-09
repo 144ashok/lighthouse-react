@@ -3,6 +3,13 @@ module.exports = {
     collect: {
       numberOfRuns: 3,
       staticDistDir: "./public",
+      "settings": {
+        "emulatedFormFactor": "desktop",
+        "disableDeviceEmulation": true,
+        "disableCpuThrottling": true,
+        "disableNetworkThrottling": true,
+        "throttlingMethod": "provided"
+    }
     },
     assert: {
       assertions: {
