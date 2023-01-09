@@ -2,10 +2,10 @@ name: CI
 on:
   push:
     branches:
-      - main
+      - action
   pull_request:
     branches:
-      - main
+      - action
 jobs:
   lhci:
     name: Lighthouse
@@ -15,7 +15,7 @@ jobs:
       - name: Use Node.js 16.x
         uses: actions/setup-node@v1
         with:
-          node-version: 10.x
+          node-version: 16.x
       - name: npm install, build
         run: |
           npm install
