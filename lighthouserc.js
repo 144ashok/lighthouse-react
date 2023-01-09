@@ -10,7 +10,7 @@ module.exports = {
     assert: {
       assertions: {
         "first-contentful-paint": ["warn", { maxNumericValue: 4000 }],
-        'categories:accessibility': ['error', {minScore: 92}],
+        'categories:accessibility': ['error', {minScore: 0.92}],
       },
     },
     upload: {
