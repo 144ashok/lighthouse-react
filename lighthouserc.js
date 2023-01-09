@@ -10,7 +10,7 @@ module.exports ={
         "numberOfRuns": 1,
         "staticDistDir": "./public",
         "settings": {
-            "emulatedFormFactor": "desktop",
+            "emulatedFormFactor": "none",
             "disableDeviceEmulation": true,
             "disableCpuThrottling": true,
             "disableNetworkThrottling": true,
